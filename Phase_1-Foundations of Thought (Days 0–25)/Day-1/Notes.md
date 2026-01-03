@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Day 1 Notes — Python Foundations
 
 
