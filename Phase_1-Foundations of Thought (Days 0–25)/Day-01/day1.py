@@ -19,5 +19,4 @@ print("Difference:", a - b)
 print("Product:", a * b)
 print("Division:", a / b)
 
-
 # End of Day 1
