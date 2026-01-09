@@ -1,6 +1,7 @@
 # Day 9 — Function Arguments
 
 
+
 Today I learned how to make functions more flexible using
 different types of arguments.
 
