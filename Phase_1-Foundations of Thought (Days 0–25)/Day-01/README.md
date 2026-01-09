@@ -4,7 +4,6 @@
 Today marks the official start of my **100 Days of Python** journey.
 
 
-
 ## What I learned today:
 
 
