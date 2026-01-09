@@ -17,6 +17,5 @@ Topics covered:
 * Avoiding infinite loops
 
 
-
 Loops are essential for automation and real-world programs.
 
