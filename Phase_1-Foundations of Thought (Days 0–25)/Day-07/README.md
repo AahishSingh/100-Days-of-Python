@@ -15,6 +15,5 @@ Topics covered:
 * Logic-based loop practice
 
 
-
 This day focuses on writing cleaner and more controlled loops.
 
