@@ -34,4 +34,5 @@ while x <= 3:
     print("x:", x)
     x += 1  # removing this line causes infinite loop
 
+
 print("\nDay 5 completed successfully!")
