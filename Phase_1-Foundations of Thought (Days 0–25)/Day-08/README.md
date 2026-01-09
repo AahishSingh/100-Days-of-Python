@@ -1,7 +1,6 @@
 # Day 8 — Functions (Introduction)
 
 
-
 Today I learned how to group logic into functions to make code
 reusable, clean, and organized.
 
