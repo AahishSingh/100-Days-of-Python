@@ -5,7 +5,6 @@
 ## What is a Variable?
 
 
-
 A variable is a **name that refers to a value stored in memory**.
 
 Example:
