@@ -1,7 +1,6 @@
 # Day 4 Notes — Conditional Statements
 
 
-
 ## What is a Conditional Statement?
 
 
