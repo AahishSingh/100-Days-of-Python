@@ -1,7 +1,6 @@
 # Day 7 — Loop Control \& Logic Practice
 
 
-
 Today I learned how to control the flow of loops and practiced
 basic logical problems using Python.
 
