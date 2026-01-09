@@ -1,7 +1,6 @@
 # Day 5 — Loops in Python
 
 
-
 Today I learned how to repeat tasks efficiently using loops.
 
 
