@@ -55,3 +55,4 @@ print("Without brackets:", result)
 print("With brackets:", result_with_brackets)
 
 print("\nDay 3 completed successfully!")
+
