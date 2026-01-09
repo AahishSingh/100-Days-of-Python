@@ -28,4 +28,5 @@ for num in range(1, 11):
         continue
     print(num)
 
+
 print("\nDay 7 completed successfully!")
