@@ -34,4 +34,5 @@ def power(base, exponent=2):
 print("Power:", power(5))
 print("Power:", power(5, exponent=3))
 
+
 print("\nDay 9 completed successfully!")
