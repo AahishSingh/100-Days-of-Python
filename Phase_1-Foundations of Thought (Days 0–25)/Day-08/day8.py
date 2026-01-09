@@ -37,4 +37,5 @@ num = 7
 print("Is", num, "even?", check_even(num))
 
 
+
 print("\nDay 8 completed successfully!")
