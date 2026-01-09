@@ -44,7 +44,6 @@ Patterns help in:
 * Visualizing loop execution
 * Building strong fundamentals
 * Preparing for problem-solving and interviews
-* 
 
 ---
 
