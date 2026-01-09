@@ -20,4 +20,3 @@ Topics covered:
 
 
 This day builds the base for conditions and decision-making.
-
