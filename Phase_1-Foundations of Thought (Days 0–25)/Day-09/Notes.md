@@ -1,7 +1,6 @@
 # Day 9 Notes — Function Arguments
 
 
-
 ## Positional Arguments
 
 
