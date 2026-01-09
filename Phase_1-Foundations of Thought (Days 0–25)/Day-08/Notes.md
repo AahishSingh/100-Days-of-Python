@@ -91,7 +91,6 @@ return a + b
 result = add(3, 4)
 
 
-
 ---
 
 ## Important Difference
