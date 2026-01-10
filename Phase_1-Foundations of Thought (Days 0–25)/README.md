@@ -43,6 +43,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 Core Programming Concepts
+
 * Variables \& data types
 * Input \& output
 * Operators
@@ -53,6 +54,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 Functions \& Logic
+
 * Defining and calling functions
 * Function arguments (positional, default, keyword)
 * Return values
@@ -61,6 +63,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 Data Structures
+
 * Lists (methods, slicing, copying)
 * Tuples (immutability)
 * Sets (unique collections \& operations)
@@ -69,6 +72,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 Strings
+
 * String operations \& methods
 * String slicing
 * Formatting
@@ -77,6 +81,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 Error Handling
+
 * try / except
 * Handling common runtime errors
 * Writing safe, crash-free programs
@@ -84,6 +89,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 File Handling
+
 * Reading \& writing files
 * Line-by-line processing
 * File-based mini problems
@@ -91,6 +97,7 @@ By the end of Phase 1, I aimed to:
 
 
 ### 🔹 Modules
+
 * Using built-in modules
 * import, from … import
 * Aliasing
@@ -115,6 +122,3 @@ By the end of Phase 1, I aimed to:
   * Lists \& dictionaries
   * Strings
   * Error handling
-
-
-
