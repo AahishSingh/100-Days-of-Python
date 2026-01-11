@@ -1,9 +1,4 @@
 
----
-
-## 🧪 `Day-26/day26_object_model.py`
-
-```python
 # Day 26 — Python Object Model
 
 print("PYTHON OBJECT MODEL PRACTICE\n")
