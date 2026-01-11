@@ -1,145 +1,116 @@
 # Day 26 Notes — Python Object Model
 
-
-
 ## Everything Is an Object
 
+- Python does not have primitive data types.
+- Everything in Python is an object.
 
+### Examples of Objects
+- `int`
+- `str`
+- `list`
+- `function`
+- `class`
 
-Python does not have primitive types.
-
-
-
-Examples of objects:
-
-* int
-* str
-* list
-* function
-* class
-
-
-
-```
+```python
 x = 10
 print(type(x))
+```
 
-
-
-What Defines an Object?
 ---
 
+## What Defines an Object?
 
+Every object in Python has three properties:
 
-Every object has:
+- **Identity** — memory location  
+- **Type** — what kind of object it is  
+- **Value** — the data it holds  
 
-Identity → memory location
-
-Type → what kind of object it is
-
-Value → the data it holds
-
-
-
+```python
 a = 100
 print(id(a), type(a), a)
+```
 
-
-
-Variables Are References
 ---
 
+## Variables Are References
 
+- Variables do **not** store values.
+- Variables store **references to objects**.
 
-Variables do not store values.
-They store references to objects.
-
+```python
 a = 10
 b = a
 print(id(a) == id(b))  # True
+```
 
-
-
-Mutability vs Immutability
 ---
 
+## Mutability vs Immutability
 
+### Immutable Objects
+Cannot be changed after creation.
 
+**Examples:**
+- `int`
+- `float`
+- `str`
+- `tuple`
 
-Immutable Objects
----
-
-
-int
-
-float
-
-str
-
-tuple
-
-They cannot be changed after creation.
-
+```python
 x = 10
-x += 1  # new object created
+x += 1   # Creates a new object
+```
 
-
-
-Mutable Objects
 ---
 
+### Mutable Objects
+Can be modified in place.
 
+**Examples:**
+- `list`
+- `dict`
+- `set`
 
-list
-
-dict
-
-set
-
-They can be modified in place.
-
-nums = \[1, 2]
+```python
+nums = [1, 2]
 nums.append(3)
+```
 
-
-
-
-Why This Matters
 ---
 
-
+## Why This Matters
 
 Mutability affects:
 
-Shared references
+- Shared references  
+- Function behavior  
+- Bugs and side effects  
+- OOP design safety  
 
-Function behavior
-
-Bugs and side effects
-
-OOP design safety
-
-
-
-Functions Are Objects Too
 ---
 
+## Functions Are Objects Too
 
+Functions are **first-class objects**.
 
-Functions can be assigned, passed, and stored.
+They can be:
+- Assigned to variables  
+- Passed as arguments  
+- Stored in data structures  
 
+```python
 def greet():
     return "Hello"
 
 print(type(greet))
+```
 
-
-Mental Rule
 ---
 
+## Mental Rule
 
-
-Variables point to objects.
-Objects have identity, type, and value.
-Mutability defines behavior.
-
+- Variables **point to objects**.  
+- Objects have **identity, type, and value**.  
+- **Mutability defines behavior**.
