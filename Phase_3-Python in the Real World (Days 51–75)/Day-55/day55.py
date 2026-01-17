@@ -34,4 +34,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-print("\nDay 55 completed successfully!")
+print("\nDay 55 completed successfully!\n")
