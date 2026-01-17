@@ -42,10 +42,13 @@ Assertions express **expectations**.
 ---
 
 ## To run the test 
+
+From inside Day-56 directory (in bash):
+
 ```bash
-From inside Day-56 directory:
 
 python -m unittest test_calculator.py
+
 ```
 ---
 
