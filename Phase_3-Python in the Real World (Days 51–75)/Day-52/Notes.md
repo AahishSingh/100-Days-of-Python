@@ -1,6 +1,6 @@
 # Day 52 Notes — PEP 8 & Clean Code Discipline
 
-## What Is PEP(Python Enhancement Proposal) 8?
+## What Is PEP (Python Enhancement Proposal) 8?
 
 PEP 8 is Python’s official style guide.
 It defines how Python code should look.
