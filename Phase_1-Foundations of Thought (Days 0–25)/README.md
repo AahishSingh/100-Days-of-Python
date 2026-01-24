@@ -96,7 +96,7 @@ By the end of Phase 1, I aimed to:
 
 ---
 
-## 🧭 Phase 1 Takeaway — Foundations of Thought
+## 🧭 Phase 1 Takeaway
 
 Phase 1 changed how I **translate problem-solving into code**.
 
