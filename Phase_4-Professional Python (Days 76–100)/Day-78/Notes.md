@@ -97,3 +97,4 @@ This allows safe refactoring.
 From inside Day-78:
 ```bash
 python -m unittest discover
+```
