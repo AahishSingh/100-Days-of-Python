@@ -85,10 +85,11 @@ python code/buggy_service.py
 2. Observe the traceback carefully
 3. Do not fix it immediately
 4. Answer for yourself:
--What is the exception?
--Where does it occur?
--Why does it occur?
--Which assumption failed?
+
+	-What is the exception?
+	-Where does it occur?
+	-Why does it occur?
+	-Which assumption failed?
 
 The fix is trivial.
 The *understanding* is not.
