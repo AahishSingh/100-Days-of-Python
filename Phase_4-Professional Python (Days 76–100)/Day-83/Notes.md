@@ -94,3 +94,19 @@ python code/debug_app.py
 	- n and s to step
 4. Observe how data flows
 5. Quit with q
+
+---
+
+## `n` — next line
+
+Use `n` when:
+- You trust the function being called
+- You don’t care about its internal logic
+- You only want to see what happens after
+
+## `s` — step into
+
+Use `s` when:
+- You don’t trust the function
+- You want to see how values change inside it
+- The bug might be inside the called function
