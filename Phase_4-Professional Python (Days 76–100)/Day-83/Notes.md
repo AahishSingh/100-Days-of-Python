@@ -86,14 +86,11 @@ python code/debug_app.py
 ```
 2. Execution will pause at pdb.set_trace()
 3. Use:
-
-	- l to view code
-
-	- p price, p discount
-
-	- n and s to step
+	- `l` to view code
+	- `p price`, `p discount`
+	- `n` and `s` to step
 4. Observe how data flows
-5. Quit with q
+5. Quit with `q`
 
 ---
 
