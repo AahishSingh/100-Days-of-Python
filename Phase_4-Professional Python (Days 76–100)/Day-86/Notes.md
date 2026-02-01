@@ -56,7 +56,7 @@ This creates a local environment folder.
 ## Activating the Environment
 On Windows (Git Bash / PowerShell):
 
-``bash
+```bash
 source venv/Scripts/activate
 ```
 
