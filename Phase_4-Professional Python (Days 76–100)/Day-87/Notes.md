@@ -60,8 +60,8 @@ On a fresh environment:
 ```bash
 pip install -r requirements.txt
 ```
-
 This recreates the dependency set reliably.
+
 ---
 
 ## Version Pinning (Important Concept)
