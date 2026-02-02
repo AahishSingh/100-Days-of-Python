@@ -101,6 +101,6 @@ python code/demo.py
 5. (Optional) Create a fresh venv and reinstall using:
 ```bash
 pip install -r requirements.txt
-```bash
+```
 
 Observe how dependencies become explicit and repeatable.
