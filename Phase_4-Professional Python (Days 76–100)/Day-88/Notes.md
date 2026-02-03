@@ -76,3 +76,23 @@ Packages:
 
 > If code is meant to be reused,
 > it should be structured as a package.
+
+---
+
+## What to Do Today
+1. Explore the folder structure
+2. Notice how:
+	- Code lives inside a package
+	- Metadata lives outside
+
+3. (Optional) From repo root, try:
+```bash
+winpty python
+>>> from sample_pkg.core import greet
+>>> greet("Aahish")
+>>> exit()
+```
+4. Observe how structure enables clarity
+
+Do not install or publish anything today.
+This is about understanding, not execution.
