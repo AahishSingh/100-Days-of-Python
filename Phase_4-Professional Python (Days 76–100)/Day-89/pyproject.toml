@@ -1,0 +1,15 @@
+## 📄 `Day-89/pyproject.toml`
+
+
+[project]
+name = "sample-pkg"
+version = "0.1.0"
+description = "Sample package for learning editable installs"
+authors = [
+    { name = "Aahish" }
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
