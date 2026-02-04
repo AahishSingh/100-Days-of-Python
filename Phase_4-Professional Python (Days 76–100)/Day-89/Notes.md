@@ -70,7 +70,6 @@ source venv/Scripts/activate
 pip install -e .
 ```
 You should see output indicating:
-	
 	- The package was installed
 	- No errors occurred
 
