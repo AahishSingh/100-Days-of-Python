@@ -60,6 +60,10 @@ After this, Python knows where your code lives.
 ---
 
 ## What to Do Today
+0. Create a Virtual Environment
+```bash
+python -m venv venv
+```
 1. Activate your virtual environment
 ```bash
 source venv/Scripts/activate
