@@ -70,8 +70,8 @@ source venv/Scripts/activate
 pip install -e .
 ```
 You should see output indicating:
--	 The package was installed
-- 	No errors occurred
+- The package was installed
+- No errors occurred
 
 3. Start Python (Git Bash)
 ```bash
