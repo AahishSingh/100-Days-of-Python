@@ -96,7 +96,7 @@ Expected output:
 
 Edit `core.py`:
 ```python
-return f"Hi, {name}! 👋"
+return f"Hi, {name}!!!"
 ```
 Run again in the same REPL:
 ```python
