@@ -60,22 +60,25 @@ After this, Python knows where your code lives.
 ---
 
 ## What to Do Today
-1.Activate your virtual environment
+1. Activate your virtual environment
 ```bash
 source venv/Scripts/activate
 ```
-2.Install your package in editable mode
+
+2. Install your package in editable mode
 ```bash
 pip install -e .
 ```
 You should see output indicating:
 - The package was installed
 - No errors occurred
-3.Start Python (Git Bash)
+
+3. Start Python (Git Bash)
 ```bash
 winpty python
 ```
-4.Test the import
+
+4. Test the import
 ```python
 from sample_pkg.core import greet
 greet("Aahish")
@@ -84,7 +87,8 @@ Expected output:
 ```text
 'Hello, Aahish!'
 ```
-5.Prove it’s editable
+
+5. Prove it’s editable
 
 Edit `core.py`:
 ```python
@@ -94,6 +98,7 @@ Run again in the same REPL:
 ```python
 greet("Aahish")
 ```
+
 You should see the updated output without reinstalling.
 
 That’s editable install working.
