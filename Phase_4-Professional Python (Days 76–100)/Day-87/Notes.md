@@ -82,7 +82,7 @@ Unpinned dependencies introduce uncertainty.
 ---
 
 ## What to Do Today
-0. Creat4 a Virtual Environment
+0. Create a Virtual Environment
 ```bash
 python -m venv venv
 ```
