@@ -82,6 +82,10 @@ Unpinned dependencies introduce uncertainty.
 ---
 
 ## What to Do Today
+0. Creat4 a Virtual Environment
+```bash
+python -m venv venv
+```
 1. Activate your virtual environment:
 ```bash
 source venv/Scripts/activate
