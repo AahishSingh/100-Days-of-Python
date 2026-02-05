@@ -100,9 +100,13 @@ They should not:
 ---
 
 ## What to Do Today
+
 1. Read the notes slowly
+
 2. Look at `sample.py`
+
 3. Ask yourself:
+
  - What could a linter warn about?
  - What would a formatter change?
  - What type hints could clarify intent?
