@@ -103,9 +103,10 @@ They should not:
 1. Read the notes slowly
 2. Look at `sample.py`
 3. Ask yourself:
-- What could a linter warn about?
-- What would a formatter change?
-- What type hints could clarify intent?
+ - What could a linter warn about?
+ - What would a formatter change?
+ - What type hints could clarify intent?
+
 4. Do not install tools yet
 
 This day is about mental models, not commands.
