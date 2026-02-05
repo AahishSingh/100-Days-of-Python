@@ -107,9 +107,9 @@ They should not:
 
 3. Ask yourself:
 
- - What could a linter warn about?
- - What would a formatter change?
- - What type hints could clarify intent?
+ 	- What could a linter warn about?
+ 	- What would a formatter change?
+ 	- What type hints could clarify intent?
 
 4. Do not install tools yet
 
