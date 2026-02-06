@@ -1,0 +1,12 @@
+Good commit messages:
+
+Day 91: add notes on Git discipline
+Day 78: improve assertions and edge case tests
+Day 89: Installing Your Own Package
+
+Bad commit messages:
+
+fix
+changes
+update code
+final version
