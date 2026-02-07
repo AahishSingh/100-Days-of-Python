@@ -93,3 +93,18 @@ Do not block for:
 
 > Review code as if you will
 > maintain it in six months.
+
+---
+
+## What to Do Today
+1. Read review_example.py
+
+2. Answer for yourself:
+
+	- What assumptions does this code make?
+	- What could go wrong?
+	- What would you comment in a review?
+
+3. Focus on clarity and behavior, not style
+
+No need to change code today.
