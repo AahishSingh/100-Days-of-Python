@@ -79,3 +79,14 @@ CI/CD is a **discipline**.
 
 > If a change cannot be verified automatically,
 > it will eventually break something.
+
+---
+
+## What to Do Today
+1. Read the notes slowly
+2. Reflect on:	
+	- How many steps you currently do manually
+	- Where mistakes could creep in
+3. Do not set up CI yet
+
+Understanding must come before automation.
