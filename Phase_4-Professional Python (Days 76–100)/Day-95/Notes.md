@@ -89,3 +89,16 @@ the gate no longer exists.
 
 > If a rule matters,
 > enforce it automatically.
+
+---
+
+## What to Do Today
+1. Reflect on your Phase 4 work:
+	- What would you gate today?
+	- What would you allow through?
+
+2. Think in terms of policy, not tools
+
+3. Do not add new automation yet
+
+This day is about **deciding standards**, not wiring them.
