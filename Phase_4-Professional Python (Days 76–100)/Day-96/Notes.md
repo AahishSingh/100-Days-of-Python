@@ -119,25 +119,3 @@ This mirrors real engineering constraints.
 
 Do not start coding yet.
 Today is about clarity.
-
----
-
-## Project Structure
-
-```markdown
-
-task_manager/
-├── pyproject.toml
-├── README.md
-├── src/
-│   └── task_manager/
-│       ├── __init__.py
-│       ├── models.py
-│       ├── repository.py
-│       ├── service.py
-│       └── cli.py
-└── tests/
-    ├── __init__.py
-    ├── test_repository.py
-    └── test_service.py
-```
