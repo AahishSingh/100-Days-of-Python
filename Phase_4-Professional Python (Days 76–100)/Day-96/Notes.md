@@ -104,3 +104,38 @@ This mirrors real engineering constraints.
 
 > If the project cannot be explained clearly in one paragraph,
 > the design is not ready.
+
+---
+
+## What to Do Today
+
+1. Read the notes carefully
+2. Decide:
+
+	- Do you accept the CLI Task Manager idea?
+
+	- Or do you want to propose an alternative?
+3. Write a short design summary (in your own words)
+
+Do not start coding yet.
+Today is about clarity.
+
+---
+
+```markdown
+
+task_manager/
+├── pyproject.toml
+├── README.md
+├── src/
+│   └── task_manager/
+│       ├── __init__.py
+│       ├── models.py
+│       ├── repository.py
+│       ├── service.py
+│       └── cli.py
+└── tests/
+    ├── __init__.py
+    ├── test_repository.py
+    └── test_service.py
+```
