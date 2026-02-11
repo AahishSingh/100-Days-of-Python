@@ -113,6 +113,7 @@ CLI is just a **translator between user and service layer**.
 
 Dependencies flow downward only.
 
+```markdown
 CLI  
 ↓  
 Service  
@@ -120,6 +121,7 @@ Service
 Repository  
 ↓  
 File System  
+```
 
 Never upward.
 
