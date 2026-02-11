@@ -122,6 +122,8 @@ Today is about clarity.
 
 ---
 
+## Project Structure
+
 ```markdown
 
 task_manager/
