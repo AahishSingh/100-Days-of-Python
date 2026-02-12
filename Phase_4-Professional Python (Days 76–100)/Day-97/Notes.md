@@ -33,3 +33,26 @@ Repository tests must:
 - Be repeatable
 
 Flaky storage tests destroy trust.
+
+---
+
+## What To Do Today
+
+0. Create venv
+```bash
+python -m venv venv
+```
+1. Activate Venv
+```bash
+source venv/Scripts/activate
+```
+2. Install package in editable mode
+```bash
+pip install -e .
+```
+3. Run:
+```bash
+python -m unittest discover -s tests
+```
+
+All tests must pass.
