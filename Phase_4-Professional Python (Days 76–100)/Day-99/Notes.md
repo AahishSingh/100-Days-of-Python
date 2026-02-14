@@ -39,7 +39,7 @@ Separation is critical.
 
 ---
 
-▶️ How To Run
+## How To Run
 
 From inside Day-99:
 
@@ -62,5 +62,15 @@ python -m task_manager.cli list
 python -m task_manager.cli complete 1
 python -m task_manager.cli list
 ```
+---
 
+## What To Observe
+- Business logic is untouched.
+- Repository is untouched.
+- CLI just wires.
+- Storage path is configurable:
 
+Example:
+```bash
+python -m task_manager.cli --storage mytasks.json add "Test"
+```
