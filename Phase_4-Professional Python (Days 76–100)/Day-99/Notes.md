@@ -37,4 +37,30 @@ Service should:
 
 Separation is critical.
 
+---
+
+▶️ How To Run
+
+From inside Day-99:
+
+0. Create venv
+```bash
+python -m venv venv
+```
+1. Activate Venv
+```bash
+source venv/Scripts/activate
+```
+2. Install package in editable mode
+```bash
+pip install -e .
+```
+3. Run these commands
+```bash
+python -m task_manager.cli add "Learn Architecture"
+python -m task_manager.cli list
+python -m task_manager.cli complete 1
+python -m task_manager.cli list
+```
+
 
