@@ -1,78 +1,64 @@
 # Day 7 Notes — Loop Control
 
+## `break`
 
-## break
+- Immediately exits the loop  
+- Used when no further iteration is needed  
 
+### Example
 
-
-* Immediately exits the loop
-* Used when no further iteration is needed
-
-
-
-Example:
+```python
 for i in range(10):
-if i == 5:
-break
-
-
+    if i == 5:
+        break
+    print(i)
+```
 
 ---
 
-## continue
+## `continue`
 
+- Skips the current iteration  
+- Loop continues with the next iteration  
 
-* Skips the current iteration
-* Loop continues with the next iteration
+### Example
 
-
-
-Example:
+```python
 for i in range(5):
-if i == 2:
-continue
-print(i)
-
-
+    if i == 2:
+        continue
+    print(i)
+```
 
 ---
 
-## pass
+## `pass`
 
+- Does nothing  
+- Used as a placeholder where a statement is required  
 
+### Example
 
-* Does nothing
-* Used as a placeholder where a statement is required
-
-
-
-Example:
+```python
 for i in range(5):
-if i == 3:
-pass
-else:
-print(i)
-
-
+    if i == 3:
+        pass
+    else:
+        print(i)
+```
 
 ---
 
-## Why pass exists
+## Why `pass` Exists
 
-
-
-* To avoid syntax errors
-* To write code structure first
-* To fill logic later
-
-
+- To avoid syntax errors  
+- To write code structure first  
+- To fill logic later  
 
 ---
 
 ## Key Difference
 
-
-
-* break → stops the loop
-* continue → skips an iteration
-* pass → does nothing, continues normally
+- `break` → stops the loop  
+- `continue` → skips an iteration  
+- `pass` → does nothing, continues normally
