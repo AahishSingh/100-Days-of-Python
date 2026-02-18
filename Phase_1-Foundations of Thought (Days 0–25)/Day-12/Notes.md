@@ -2,7 +2,7 @@
 
 ## Adding Elements to a List
 
-### 1️⃣ `append()`
+### `append()`
 Adds an element to the end of the list.
 
 ```python
@@ -13,7 +13,7 @@ print(numbers)  # [10, 20, 30, 50]
 
 ---
 
-### 2️⃣ `extend()`
+### `extend()`
 Adds multiple elements to the list.
 
 ```python
@@ -23,7 +23,7 @@ print(numbers)
 
 ---
 
-### 3️⃣ `insert()`
+### `insert()`
 Adds an element at a specific index.
 
 ```python
@@ -35,7 +35,7 @@ print(numbers)
 
 ## Removing Elements from a List
 
-### 1️⃣ `remove()`
+### `remove()`
 Removes the first occurrence of a value.
 
 ```python
@@ -47,7 +47,7 @@ print(numbers)
 
 ---
 
-### 2️⃣ `pop()`
+### `pop()`
 Removes and returns an element by index.
 
 ```python
