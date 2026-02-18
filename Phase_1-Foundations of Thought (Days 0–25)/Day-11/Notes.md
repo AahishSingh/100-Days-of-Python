@@ -1,109 +1,98 @@
 # Day 11 Notes — Lists
 
-
-
 ## Why Lists?
-
-
 
 Lists allow us to store **multiple values in a single variable**.
 
 Instead of:
+
+```python
 a = 10
 b = 20
 c = 30
-
-
+```
 
 We use:
-numbers = \[10, 20, 30]
 
-
+```python
+numbers = [10, 20, 30]
+```
 
 ---
 
 ## Creating a List
 
+### Syntax
 
-
-Syntax:
-list\_name = \[value1, value2, value3]
-
-
+```python
+list_name = [value1, value2, value3]
+```
 
 Lists can store:
 
-* Integers
-* Floats
-* Strings
-* Mixed data types
+- Integers  
+- Floats  
+- Strings  
+- Mixed data types  
 
+### Example
 
-
-Example:
-data = \[1, 2.5, "Python", True]
-
-
+```python
+data = [1, 2.5, "Python", True]
+```
 
 ---
 
 ## Indexing
 
-
-
 Lists are **zero-indexed**.
 
+### Example
 
+```python
+numbers = [10, 20, 30]
 
-Example:
-numbers = \[10, 20, 30]
+print(numbers[0])  # 10
+print(numbers[1])  # 20
+```
 
-numbers\[0] → 10  
-numbers\[1] → 20
+### Negative Indexing
 
-
-
-Negative indexing:
-numbers\[-1] → last element
-
-
+```python
+print(numbers[-1])  # Last element
+```
 
 ---
 
 ## Modifying Lists
 
-
-
 Lists are **mutable**, meaning they can be changed.
 
+### Example
 
-
-Example:
-numbers\[1] = 50
-
-
+```python
+numbers = [10, 20, 30]
+numbers[1] = 50
+print(numbers)  # [10, 50, 30]
+```
 
 ---
 
 ## Iterating Over a List
 
+Use a `for` loop to access each element.
 
+### Example
 
-Use a for loop to access each element.
+```python
+numbers = [10, 20, 30]
 
-
-
-Example:
 for item in numbers:
-print(item)
-
-
+    print(item)
+```
 
 ---
 
 ## Key Concept
 
-
-
 Lists store **references to objects**, not copies.
-
