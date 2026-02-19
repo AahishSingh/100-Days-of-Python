@@ -49,7 +49,7 @@ print(text[::-1])  # Reverse string
 
 ## String Formatting
 
-### 1️⃣ f-strings (Recommended)
+### f-strings (Recommended)
 
 ```python
 name = "Aahish"
@@ -58,7 +58,7 @@ age = 22
 print(f"My name is {name} and I am {age} years old")
 ```
 
-### 2️⃣ `format()` Method
+### `format()` Method
 
 ```python
 print("My name is {} and I am {}".format(name, age))
