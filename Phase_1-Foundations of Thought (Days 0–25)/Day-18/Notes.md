@@ -49,7 +49,7 @@ print(text[::-1])  # Reverse string
 
 ## String Formatting
 
-### f-strings (Recommended)
+### `f-strings` (Recommended)
 
 ```python
 name = "Aahish"
