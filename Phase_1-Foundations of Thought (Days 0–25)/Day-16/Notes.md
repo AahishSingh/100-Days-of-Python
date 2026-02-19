@@ -1,101 +1,97 @@
 # Day 16 Notes — Dictionaries
 
-
-
 ## What is a Dictionary?
-
-
 
 A dictionary stores data as **key–value pairs**.
 
+### Example
 
-
-Example:
+```python
 student = {
-"name": "Aahish",
-"age": 22,
-"course": "Python"
+    "name": "Aahish",
+    "age": 22,
+    "course": "Python"
 }
-
-
+```
 
 ---
 
 ## Dictionary Characteristics
 
-
-
-* Unordered (conceptually)
-* Keys must be unique
-* Keys must be immutable (string, number, tuple)
-* Values can be anything
-* Mutable (can be changed)
-
-
+- Unordered (conceptually)  
+- Keys must be unique  
+- Keys must be immutable (string, number, tuple)  
+- Values can be anything  
+- Mutable (can be changed)  
 
 ---
 
 ## Accessing Values
 
-
-
 Use keys, not indices.
 
+### Example
 
+```python
+print(student["name"])
+```
 
-Example:
-student\["name"]
+⚠ Accessing a non-existing key causes `KeyError`.
 
-⚠ Accessing a non-existing key causes KeyError.
+Safer alternative:
 
-
+```python
+print(student.get("city"))  # Returns None if key doesn't exist
+```
 
 ---
 
-## Adding \& Updating Values
+## Adding & Updating Values
 
+### Add New Key
 
+```python
+student["city"] = "Gaya"
+```
 
-Add new key:
-student\["city"] = "Gaya"
+### Update Existing Key
 
-
-
-Update existing key:
-student\["age"] = 23
-
-
+```python
+student["age"] = 23
+```
 
 ---
 
 ## Removing Entries
 
-
-
-* del dict\[key]
-* pop(key)
-
-
+```python
+del student["course"]
+student.pop("age")
+```
 
 ---
 
 ## Iterating Over Dictionaries
 
+```python
+# Iterate over keys
+for key in student:
+    print(key)
 
+# Iterate over values
+for value in student.values():
+    print(value)
 
-* for key in dict
-* for value in dict.values()
-* for key, value in dict.items()
-
-
+# Iterate over key-value pairs
+for key, value in student.items():
+    print(key, value)
+```
 
 ---
 
 ## When to Use Dictionaries
 
-
-
-* Structured data
-* Lookup tables
-* Configurations
-* API / JSON data
+- Structured data  
+- Lookup tables  
+- Configurations  
+- API / JSON data  
