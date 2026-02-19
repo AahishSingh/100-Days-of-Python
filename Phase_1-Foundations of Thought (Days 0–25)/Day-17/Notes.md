@@ -1,74 +1,74 @@
-# Day 17 Notes — Dictionary Methods \& Nested Dictionaries
+# Day 17 Notes — Dictionary Methods & Nested Dictionaries
 
+## Safe Access: `get()`
 
+Using `[]` raises `KeyError` if the key is missing.
 
-## Safe Access: get()
+Safer approach:
 
+```python
+student = {"name": "Aahish", "age": 23}
 
+print(student.get("name"))
+print(student.get("grade", "Not Available"))
+```
 
-Using \[] raises KeyError if key is missing.
-
-
-
-Use get():
-student.get("name")
-student.get("grade", "Not Available")
-
-This avoids crashes.
-
-
+This avoids crashes by returning `None` or a default value.
 
 ---
 
 ## Common Dictionary Methods
 
-
-
-* dict.keys()   → returns keys
-* dict.values() → returns values
-* dict.items()  → returns key-value pairs
-* dict.update() → merge dictionaries
-* dict.clear()  → remove all entries
-* 
+```python
+student.keys()     # Returns keys
+student.values()   # Returns values
+student.items()    # Returns key-value pairs
+student.update({"city": "Gaya"})  # Merge / add entries
+student.clear()    # Remove all entries
+```
 
 ---
 
 ## Nested Dictionaries
 
-
-
 A dictionary inside another dictionary.
 
+### Example
 
-
-Example:
+```python
 students = {
-"Aahish": {"age": 23, "course": "Python"},
-"Swati": {"age": 22, "course": "C++"}
+    "Aahish": {"age": 23, "course": "Python"},
+    "Swati": {"age": 22, "course": "C++"}
 }
-
-
+```
 
 Used for:
 
-* User profiles
-* API responses
-* Configuration files
-* 
+- User profiles  
+- API responses  
+- Configuration files  
+
+---
+
+## Accessing Nested Data
+
+```python
+print(students["Aahish"]["course"])
+```
 
 ---
 
 ## Iterating Nested Dictionaries
 
-
-
-Use nested loops to access inner data.
+```python
+for name, details in students.items():
+    print("Name:", name)
+    for key, value in details.items():
+        print(f"  {key}: {value}")
+```
 
 ---
 
 ## Key Idea
 
-
-
 Dictionaries model **meaningful relationships**, not positions.
-
