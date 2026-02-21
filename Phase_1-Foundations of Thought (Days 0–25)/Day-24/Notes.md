@@ -38,7 +38,7 @@ print(sqrt(16))
 
 ---
 
-###  Aliasing
+### `Aliasing`
 
 Rename modules for convenience.
 
