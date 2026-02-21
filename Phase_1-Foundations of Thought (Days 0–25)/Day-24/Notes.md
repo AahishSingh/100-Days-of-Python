@@ -1,85 +1,69 @@
-# Day 24 Notes — Modules \& Imports
-
-
+# Day 24 Notes — Modules & Imports
 
 ## What is a Module?
 
-
-
-A module is a file containing Python code (functions, variables, classes)
+A module is a file containing Python code (functions, variables, classes)  
 that can be reused in other programs.
 
-
-
-Example:
-math, random, datetime
-
-
+Examples:
+- `math`
+- `random`
+- `datetime`
 
 ---
 
 ## Importing Modules
 
+###  `import module`
 
+Use `module.function()`.
 
-1. import module
-   Use module.function()
-
-
-
-Example:
+```python
 import math
-math.sqrt(16)
 
-
+print(math.sqrt(16))
+```
 
 ---
 
-2. from module import name
-   Use name directly.
+###  `from module import name`
 
+Use the imported name directly.
 
-
-Example:
+```python
 from math import sqrt
-sqrt(16)
 
-
+print(sqrt(16))
+```
 
 ---
 
-3. Aliasing
-   Rename modules for convenience.
+###  Aliasing
 
+Rename modules for convenience.
 
-
-Example:
+```python
 import math as m
-m.pi
 
-
+print(m.pi)
+```
 
 ---
 
 ## Built-in Modules (Common)
 
-
-
-* math → mathematical operations
-* random → randomness
-* datetime → dates and time
-* os → interacting with OS (later)
-* sys → system-level details (later)
-
-
+- `math` → mathematical operations  
+- `random` → randomness  
+- `datetime` → dates and time  
+- `os` → interacting with OS (advanced)  
+- `sys` → system-level details (advanced)  
 
 ---
 
 ## Why Modules Matter
 
-
-
-* Avoid rewriting code
-* Organize large programs
-* Improve readability
-* Encourage reuse
+- Avoid rewriting code  
+- Organize large programs  
+- Improve readability  
+- Encourage reuse  
+- Promote modular design  
