@@ -1,10 +1,12 @@
-# Day 0 — Orientation & Setup
+## Day 0 — Orientation & Setup  
 
+Day 0 is about understanding Python as a language and setting up the environment properly before writing real code.
 
-Day 0 is about **understanding Python as a language**, not rushing into writing code.
-
-Topics covered:
-- What Python is
-- Why Python exists
-- How Python executes code
-- Setting the right learning mindset
+**Topics covered:**
+- What Python is (basic definition)  
+- Brief history of Python (who created it, when, and why)  
+- How Python executes code (Interpreter → Bytecode → PVM)  
+- Installing Python from the official website  
+- Verifying installation using terminal commands  
+- Executing python `(.py)` files from bash/terminal  
+- Setting the right learning mindset  
