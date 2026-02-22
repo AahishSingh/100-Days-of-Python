@@ -89,29 +89,6 @@ If installed correctly, it will show something like:
 ```
 Python 3.x.x
 ```
-
----
-
-## Running Python in Terminal
-
-### Start Interactive Mode:
-
-```bash
-python
-```
-
-or
-
-```bash
-python3
-```
-
-To exit:
-
-```bash
-exit()
-```
-
 ---
 
 ## Running a Python Script from Terminal
@@ -121,20 +98,22 @@ exit()
 Example:
 
 ```python
-# hello.py
+# day0.py
 print("Hello, Python!")
 ```
 
-### Step 2: Run it
+### Step 2: Run it  
+
+`python filename.py`
 
 ```bash
-python hello.py
+python day0.py
 ```
 
 or
 
 ```bash
-python3 hello.py
+python3 day0.py
 ```
 
 ---
