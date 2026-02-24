@@ -119,8 +119,10 @@ Inside main() before parsing:
 ```python
 configure_logging()
 ```
+---
 
-### Run It
+## Run
+
 ```bash
 python -m task_manager.cli add "Final Review"
 ```
