@@ -128,6 +128,6 @@ python -m task_manager.cli add "Final Review"
 You should see:
 
 ```bash
-2026-... | INFO | task_manager.service | Task added with ID 2
-Added task [2] Final Review
+2026-... | INFO | task_manager.service | Task added with ID 1
+Added task [1] Final Review
 ```
