@@ -182,4 +182,6 @@ Phase 4 completed the transition from:
 
 - **Engineering systems that hold up**  
 to  
-- **Engineering systems that teams can rely on.**
+- **Engineering systems that teams can rely on.**  
+
+It taught me that true professionalism in software is not measured by how much code I can write alone, but by how confidently a team can build, debug, and grow on top of what I create.
