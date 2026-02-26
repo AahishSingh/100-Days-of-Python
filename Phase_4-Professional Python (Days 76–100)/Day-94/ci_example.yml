@@ -1,9 +1,0 @@
-# Day 94 — ci_example.yml
-# Conceptual example of a CI pipeline
-
-steps:
-  - name: Checkout code
-  - name: Set up Python
-  - name: Install dependencies
-  - name: Run tests
-    command: python -m unittest discover -s tests
