@@ -180,6 +180,6 @@ It is about writing code that others can trust.
 
 Phase 4 completed the transition from:
 
-**Engineering systems that work**  
+- **Engineering systems that work**  
 to  
-**Engineering systems that teams can rely on.**
+- **Engineering systems that teams can rely on.**
