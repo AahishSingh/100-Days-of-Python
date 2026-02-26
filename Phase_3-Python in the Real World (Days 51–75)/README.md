@@ -142,4 +142,6 @@ It is about being **deliberate**.
 Phase 3 completed the transition from:
 - Designing systems  
 to  
-- Engineering systems that hold up
+- Engineering systems that hold up  
+
+It replaced idealism with pragmatism — teaching me that real-world software is defined not by how elegantly it starts, but by how reliably it survives.
